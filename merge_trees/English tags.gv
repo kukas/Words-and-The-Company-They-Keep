@@ -1,0 +1,108 @@
+digraph "English tags" {
+	rankdir=LR
+	RBR [label=RBR]
+	"WP$" [label="WP$"]
+	RBR -> "WP$"
+	RBR [label=RBR]
+	JJR [label=JJR]
+	RBR -> JJR
+	SYM [label=SYM]
+	NNPS [label=NNPS]
+	SYM -> NNPS
+	EX [label=EX]
+	PRP [label=PRP]
+	EX -> PRP
+	FW [label=FW]
+	NNP [label=NNP]
+	FW -> NNP
+	"(" [label="("]
+	"." [label="."]
+	"(" -> "."
+	"\"" [label="\""]
+	WP [label=WP]
+	"\"" -> WP
+	JJS [label=JJS]
+	JJ [label=JJ]
+	JJS -> JJ
+	RBR [label=RBR]
+	RBS [label=RBS]
+	RBR -> RBS
+	WRB [label=WRB]
+	"\"" [label="\""]
+	WRB -> "\""
+	DT [label=DT]
+	"PRP$" [label="PRP$"]
+	DT -> "PRP$"
+	JJS [label=JJS]
+	CD [label=CD]
+	JJS -> CD
+	FW [label=FW]
+	SYM [label=SYM]
+	FW -> SYM
+	WRB [label=WRB]
+	WDT [label=WDT]
+	WRB -> WDT
+	<colon> [label=":"]
+	"," [label=","]
+	<colon> -> ","
+	VBD [label=VBD]
+	VBN [label=VBN]
+	VBD -> VBN
+	VBZ [label=VBZ]
+	VBP [label=VBP]
+	VBZ -> VBP
+	JJS [label=JJS]
+	RBR [label=RBR]
+	JJS -> RBR
+	NN [label=NN]
+	NNS [label=NNS]
+	NN -> NNS
+	WRB [label=WRB]
+	VBG [label=VBG]
+	WRB -> VBG
+	"(" [label="("]
+	<colon> [label=":"]
+	"(" -> <colon>
+	WRB [label=WRB]
+	CC [label=CC]
+	WRB -> CC
+	TO [label=TO]
+	MD [label=MD]
+	TO -> MD
+	EX [label=EX]
+	FW [label=FW]
+	EX -> FW
+	VBD [label=VBD]
+	RB [label=RB]
+	VBD -> RB
+	VBZ [label=VBZ]
+	VB [label=VB]
+	VBZ -> VB
+	WRB [label=WRB]
+	EX [label=EX]
+	WRB -> EX
+	WRB [label=WRB]
+	TO [label=TO]
+	WRB -> TO
+	VBD [label=VBD]
+	VBZ [label=VBZ]
+	VBD -> VBZ
+	WRB [label=WRB]
+	VBD [label=VBD]
+	WRB -> VBD
+	WRB [label=WRB]
+	"(" [label="("]
+	WRB -> "("
+	JJS [label=JJS]
+	DT [label=DT]
+	JJS -> DT
+	IN [label=IN]
+	WRB [label=WRB]
+	IN -> WRB
+	JJS [label=JJS]
+	IN [label=IN]
+	JJS -> IN
+	JJS [label=JJS]
+	NN [label=NN]
+	JJS -> NN
+}

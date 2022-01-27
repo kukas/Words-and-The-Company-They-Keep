@@ -1,0 +1,183 @@
+digraph "Czech words" {
+	rankdir=LR
+	OKD [label=OKD]
+	listopadu [label=listopadu]
+	OKD -> listopadu
+	"které" [label="které"]
+	"který" [label="který"]
+	"které" -> "který"
+	"státu" [label="státu"]
+	J [label=J]
+	"státu" -> J
+	"musí" [label="musí"]
+	bude [label=bude]
+	"musí" -> bude
+	aby [label=aby]
+	ale [label=ale]
+	aby -> ale
+	"nás" [label="nás"]
+	bylo [label=bylo]
+	"nás" -> bylo
+	"už" [label="už"]
+	si [label=si]
+	"už" -> si
+	pouze [label=pouze]
+	"být" [label="být"]
+	pouze -> "být"
+	mezi [label=mezi]
+	"však" [label="však"]
+	mezi -> "však"
+	NATO [label=NATO]
+	"&slash;" [label="&slash;"]
+	NATO -> "&slash;"
+	ze [label=ze]
+	jeho [label=jeho]
+	ze -> jeho
+	jsou [label=jsou]
+	byl [label=byl]
+	jsou -> byl
+	"?" [label="?"]
+	"před" [label="před"]
+	"?" -> "před"
+	jako [label=jako]
+	budou [label=budou]
+	jako -> budou
+	Na [label=Na]
+	OKD [label=OKD]
+	Na -> OKD
+	"zákona" [label="zákona"]
+	"při" [label="při"]
+	"zákona" -> "při"
+	u [label=u]
+	za [label=za]
+	u -> za
+	"státu" [label="státu"]
+	"ČSFR" [label="ČSFR"]
+	"státu" -> "ČSFR"
+	aby [label=aby]
+	"které" [label="které"]
+	aby -> "které"
+	"nás" [label="nás"]
+	"včera" [label="včera"]
+	"nás" -> "včera"
+	mezi [label=mezi]
+	od [label=od]
+	mezi -> od
+	"už" [label="už"]
+	"musí" [label="musí"]
+	"už" -> "musí"
+	pro [label=pro]
+	po [label=po]
+	pro -> po
+	Na [label=Na]
+	V [label=V]
+	Na -> V
+	jsou [label=jsou]
+	NATO [label=NATO]
+	jsou -> NATO
+	pouze [label=pouze]
+	ze [label=ze]
+	pouze -> ze
+	ve [label=ve]
+	"?" [label="?"]
+	ve -> "?"
+	"že" [label="že"]
+	aby [label=aby]
+	"že" -> aby
+	jako [label=jako]
+	to [label=to]
+	jako -> to
+	"zákona" [label="zákona"]
+	k [label=k]
+	"zákona" -> k
+	"nás" [label="nás"]
+	by [label=by]
+	"nás" -> by
+	do [label=do]
+	u [label=u]
+	do -> u
+	"státu" [label="státu"]
+	")" [label=")"]
+	"státu" -> ")"
+	je [label=je]
+	i [label=i]
+	je -> i
+	"už" [label="už"]
+	mezi [label=mezi]
+	"už" -> mezi
+	<colon> [label=":"]
+	pouze [label=pouze]
+	<colon> -> pouze
+	pro [label=pro]
+	z [label=z]
+	pro -> z
+	"(" [label="("]
+	jsou [label=jsou]
+	"(" -> jsou
+	ve [label=ve]
+	s [label=s]
+	ve -> s
+	"zákona" [label="zákona"]
+	jako [label=jako]
+	"zákona" -> jako
+	Na [label=Na]
+	"\"" [label="\""]
+	Na -> "\""
+	je [label=je]
+	"nás" [label="nás"]
+	je -> "nás"
+	do [label=do]
+	"už" [label="už"]
+	do -> "už"
+	"-" [label="-"]
+	<colon> [label=":"]
+	"-" -> <colon>
+	"(" [label="("]
+	"státu" [label="státu"]
+	"(" -> "státu"
+	o [label=o]
+	pro [label=pro]
+	o -> pro
+	"zákona" [label="zákona"]
+	ve [label=ve]
+	"zákona" -> ve
+	"že" [label="že"]
+	je [label=je]
+	"že" -> je
+	na [label=na]
+	se [label=se]
+	na -> se
+	"(" [label="("]
+	Na [label=Na]
+	"(" -> Na
+	do [label=do]
+	v [label=v]
+	do -> v
+	"-" [label="-"]
+	o [label=o]
+	"-" -> o
+	"zákona" [label="zákona"]
+	a [label=a]
+	"zákona" -> a
+	"že" [label="že"]
+	na [label=na]
+	"že" -> na
+	"-" [label="-"]
+	do [label=do]
+	"-" -> do
+	"zákona" [label="zákona"]
+	"(" [label="("]
+	"zákona" -> "("
+	"že" [label="že"]
+	"," [label=","]
+	"že" -> ","
+	"-" [label="-"]
+	"." [label="."]
+	"-" -> "."
+	"že" [label="že"]
+	"zákona" [label="zákona"]
+	"že" -> "zákona"
+	"-" [label="-"]
+	"že" [label="že"]
+	"-" -> "že"
+}
