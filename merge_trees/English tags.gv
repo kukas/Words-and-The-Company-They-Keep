@@ -1,59 +1,59 @@
 digraph "English tags" {
 	rankdir=LR
-	RBR [label=RBR]
 	"WP$" [label="WP$"]
-	RBR -> "WP$"
 	RBR [label=RBR]
+	"WP$" -> RBR
+	"WP$" [label="WP$"]
 	JJR [label=JJR]
-	RBR -> JJR
+	"WP$" -> JJR
 	SYM [label=SYM]
 	NNPS [label=NNPS]
 	SYM -> NNPS
-	EX [label=EX]
 	PRP [label=PRP]
-	EX -> PRP
+	EX [label=EX]
+	PRP -> EX
 	FW [label=FW]
 	NNP [label=NNP]
 	FW -> NNP
 	"(" [label="("]
 	"." [label="."]
 	"(" -> "."
-	"\"" [label="\""]
 	WP [label=WP]
-	"\"" -> WP
+	"\"" [label="\""]
+	WP -> "\""
 	JJS [label=JJS]
 	JJ [label=JJ]
 	JJS -> JJ
-	RBR [label=RBR]
+	"WP$" [label="WP$"]
 	RBS [label=RBS]
-	RBR -> RBS
+	"WP$" -> RBS
 	WRB [label=WRB]
-	"\"" [label="\""]
-	WRB -> "\""
-	DT [label=DT]
+	WP [label=WP]
+	WRB -> WP
 	"PRP$" [label="PRP$"]
-	DT -> "PRP$"
+	DT [label=DT]
+	"PRP$" -> DT
 	JJS [label=JJS]
 	CD [label=CD]
 	JJS -> CD
-	FW [label=FW]
 	SYM [label=SYM]
-	FW -> SYM
+	FW [label=FW]
+	SYM -> FW
 	WRB [label=WRB]
 	WDT [label=WDT]
 	WRB -> WDT
-	<colon> [label=":"]
 	"," [label=","]
-	<colon> -> ","
+	<colon> [label=":"]
+	"," -> <colon>
 	VBD [label=VBD]
 	VBN [label=VBN]
 	VBD -> VBN
 	VBZ [label=VBZ]
 	VBP [label=VBP]
 	VBZ -> VBP
+	"WP$" [label="WP$"]
 	JJS [label=JJS]
-	RBR [label=RBR]
-	JJS -> RBR
+	"WP$" -> JJS
 	NN [label=NN]
 	NNS [label=NNS]
 	NN -> NNS
@@ -61,48 +61,48 @@ digraph "English tags" {
 	VBG [label=VBG]
 	WRB -> VBG
 	"(" [label="("]
-	<colon> [label=":"]
-	"(" -> <colon>
+	"," [label=","]
+	"(" -> ","
 	WRB [label=WRB]
 	CC [label=CC]
 	WRB -> CC
-	TO [label=TO]
 	MD [label=MD]
-	TO -> MD
-	EX [label=EX]
-	FW [label=FW]
-	EX -> FW
-	VBD [label=VBD]
-	RB [label=RB]
-	VBD -> RB
-	VBZ [label=VBZ]
-	VB [label=VB]
-	VBZ -> VB
-	WRB [label=WRB]
-	EX [label=EX]
-	WRB -> EX
-	WRB [label=WRB]
 	TO [label=TO]
-	WRB -> TO
+	MD -> TO
+	SYM [label=SYM]
+	PRP [label=PRP]
+	SYM -> PRP
+	RB [label=RB]
 	VBD [label=VBD]
+	RB -> VBD
+	VB [label=VB]
 	VBZ [label=VBZ]
-	VBD -> VBZ
+	VB -> VBZ
 	WRB [label=WRB]
-	VBD [label=VBD]
-	WRB -> VBD
+	SYM [label=SYM]
+	WRB -> SYM
+	WRB [label=WRB]
+	MD [label=MD]
+	WRB -> MD
+	VB [label=VB]
+	RB [label=RB]
+	VB -> RB
+	WRB [label=WRB]
+	VB [label=VB]
+	WRB -> VB
 	WRB [label=WRB]
 	"(" [label="("]
 	WRB -> "("
-	JJS [label=JJS]
-	DT [label=DT]
-	JJS -> DT
-	IN [label=IN]
+	"WP$" [label="WP$"]
+	"PRP$" [label="PRP$"]
+	"WP$" -> "PRP$"
 	WRB [label=WRB]
-	IN -> WRB
-	JJS [label=JJS]
 	IN [label=IN]
-	JJS -> IN
-	JJS [label=JJS]
+	WRB -> IN
+	"WP$" [label="WP$"]
+	WRB [label=WRB]
+	"WP$" -> WRB
+	"WP$" [label="WP$"]
 	NN [label=NN]
-	JJS -> NN
+	"WP$" -> NN
 }

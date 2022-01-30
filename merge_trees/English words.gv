@@ -3,12 +3,12 @@ digraph "English words" {
 	case [label=case]
 	subject [label=subject]
 	case -> subject
-	cannot [label=cannot]
 	may [label=may]
-	cannot -> may
-	structure [label=structure]
+	cannot [label=cannot]
+	may -> cannot
 	individuals [label=individuals]
-	structure -> individuals
+	structure [label=structure]
+	individuals -> structure
 	there [label=there]
 	It [label=It]
 	there -> It
@@ -24,12 +24,12 @@ digraph "English words" {
 	slight [label=slight]
 	short [label=short]
 	slight -> short
-	distinct [label=distinct]
 	certain [label=certain]
-	distinct -> certain
-	such [label=such]
+	distinct [label=distinct]
+	certain -> distinct
 	manner [label=manner]
-	such -> manner
+	such [label=such]
+	manner -> such
 	must [label=must]
 	can [label=can]
 	must -> can
@@ -51,27 +51,27 @@ digraph "English words" {
 	domestic [label=domestic]
 	domesticated [label=domesticated]
 	domestic -> domesticated
-	varieties [label=varieties]
 	races [label=races]
-	varieties -> races
+	varieties [label=varieties]
+	races -> varieties
 	when [label=when]
 	if [label=if]
 	when -> if
 	"(" [label="("]
 	than [label=than]
 	"(" -> than
-	do [label=do]
 	believe [label=believe]
-	do -> believe
+	do [label=do]
+	believe -> do
 	great [label=great]
 	my [label=my]
 	great -> my
 	could [label=could]
 	will [label=will]
 	could -> will
+	individuals [label=individuals]
 	variation [label=variation]
-	structure [label=structure]
-	variation -> structure
+	individuals -> variation
 	plants [label=plants]
 	facts [label=facts]
 	plants -> facts
@@ -90,247 +90,247 @@ digraph "English words" {
 	slight [label=slight]
 	long [label=long]
 	slight -> long
-	each [label=each]
 	these [label=these]
-	each -> these
-	cannot [label=cannot]
+	each [label=each]
+	these -> each
+	may [label=may]
 	would [label=would]
-	cannot -> would
-	very [label=very]
+	may -> would
 	any [label=any]
-	very -> any
-	many [label=many]
+	very [label=very]
+	any -> very
 	most [label=most]
-	many -> most
-	so [label=so]
+	many [label=many]
+	most -> many
 	often [label=often]
-	so -> often
+	so [label=so]
+	often -> so
 	they [label=they]
 	we [label=we]
 	they -> we
-	much [label=much]
 	differ [label=differ]
-	much -> differ
-	do [label=do]
+	much [label=much]
+	differ -> much
 	see [label=see]
-	do -> see
+	believe [label=believe]
+	see -> believe
 	more [label=more]
 	less [label=less]
 	more -> less
-	it [label=it]
 	there [label=there]
-	it -> there
+	it [label=it]
+	there -> it
 	animals [label=animals]
 	cases [label=cases]
 	animals -> cases
-	distinct [label=distinct]
+	certain [label=certain]
 	an [label=an]
-	distinct -> an
-	cannot [label=cannot]
+	certain -> an
 	must [label=must]
-	cannot -> must
+	may [label=may]
+	must -> may
+	manner [label=manner]
 	wild [label=wild]
-	such [label=such]
-	wild -> such
+	manner -> wild
 	all [label=all]
 	how [label=how]
 	all -> how
 	"(" [label="("]
 	but [label=but]
 	"(" -> but
-	breeds [label=breeds]
 	case [label=case]
-	breeds -> case
-	other [label=other]
+	breeds [label=breeds]
+	case -> breeds
 	one [label=one]
-	other -> one
+	other [label=other]
+	one -> other
 	great [label=great]
 	our [label=our]
 	great -> our
-	me [label=me]
 	at [label=at]
-	me -> at
-	each [label=each]
+	me [label=me]
+	at -> me
 	some [label=some]
-	each -> some
+	these [label=these]
+	some -> these
 	several [label=several]
 	its [label=its]
 	several -> its
-	varieties [label=varieties]
 	species [label=species]
-	varieties -> species
-	<colon> [label=":"]
+	races [label=races]
+	species -> races
 	under [label=under]
-	<colon> -> under
-	when [label=when]
+	<colon> [label=":"]
+	under -> <colon>
 	for [label=for]
-	when -> for
-	very [label=very]
+	when [label=when]
+	for -> when
+	any [label=any]
 	their [label=their]
-	very -> their
+	any -> their
 	animals [label=animals]
 	plants [label=plants]
 	animals -> plants
 	domestic [label=domestic]
-	wild [label=wild]
-	domestic -> wild
-	many [label=many]
+	manner [label=manner]
+	domestic -> manner
+	most [label=most]
 	same [label=same]
-	many -> same
-	cannot [label=cannot]
+	most -> same
 	could [label=could]
-	cannot -> could
-	with [label=with]
+	must [label=must]
+	could -> must
 	by [label=by]
-	with -> by
+	with [label=with]
+	by -> with
+	often [label=often]
 	not [label=not]
-	so [label=so]
-	not -> so
-	breeds [label=breeds]
-	variation [label=variation]
-	breeds -> variation
-	I [label=I]
+	often -> not
+	case [label=case]
+	individuals [label=individuals]
+	case -> individuals
 	they [label=they]
-	I -> they
-	more [label=more]
-	slight [label=slight]
-	more -> slight
-	much [label=much]
-	all [label=all]
-	much -> all
-	distinct [label=distinct]
-	several [label=several]
-	distinct -> several
-	is [label=is]
-	has [label=has]
-	is -> has
-	this [label=this]
-	which [label=which]
-	this -> which
-	as [label=as]
-	"(" [label="("]
-	as -> "("
-	me [label=me]
-	on [label=on]
-	me -> on
-	varieties [label=varieties]
-	animals [label=animals]
-	varieties -> animals
-	do [label=do]
-	have [label=have]
-	do -> have
-	not [label=not]
-	been [label=been]
-	not -> been
-	very [label=very]
-	each [label=each]
-	very -> each
-	many [label=many]
-	other [label=other]
-	many -> other
-	<colon> [label=":"]
-	from [label=from]
-	<colon> -> from
-	it [label=it]
 	I [label=I]
-	it -> I
-	when [label=when]
+	they -> I
+	slight [label=slight]
+	more [label=more]
+	slight -> more
+	all [label=all]
+	differ [label=differ]
+	all -> differ
+	certain [label=certain]
+	several [label=several]
+	certain -> several
+	has [label=has]
+	is [label=is]
+	has -> is
+	which [label=which]
+	this [label=this]
+	which -> this
+	"(" [label="("]
+	as [label=as]
+	"(" -> as
+	on [label=on]
+	at [label=at]
+	on -> at
+	animals [label=animals]
+	species [label=species]
+	animals -> species
+	see [label=see]
+	have [label=have]
+	see -> have
+	often [label=often]
+	been [label=been]
+	often -> been
+	some [label=some]
+	any [label=any]
+	some -> any
+	most [label=most]
+	one [label=one]
+	most -> one
+	under [label=under]
+	from [label=from]
+	under -> from
+	they [label=they]
+	there [label=there]
+	they -> there
 	or [label=or]
-	when -> or
+	for [label=for]
+	or -> for
 	great [label=great]
-	distinct [label=distinct]
-	great -> distinct
+	certain [label=certain]
+	great -> certain
 	In [label=In]
 	are [label=are]
 	In -> are
-	more [label=more]
+	slight [label=slight]
 	domestic [label=domestic]
-	more -> domestic
-	breeds [label=breeds]
-	varieties [label=varieties]
-	breeds -> varieties
-	is [label=is]
-	do [label=do]
-	is -> do
-	very [label=very]
+	slight -> domestic
+	animals [label=animals]
+	case [label=case]
+	animals -> case
+	see [label=see]
+	has [label=has]
+	see -> has
+	some [label=some]
 	a [label=a]
-	very -> a
-	as [label=as]
-	when [label=when]
-	as -> when
-	much [label=much]
-	this [label=this]
-	much -> this
-	with [label=with]
+	some -> a
+	or [label=or]
+	"(" [label="("]
+	or -> "("
+	all [label=all]
+	which [label=which]
+	all -> which
+	by [label=by]
 	that [label=that]
-	with -> that
+	by -> that
+	often [label=often]
 	be [label=be]
-	not [label=not]
-	be -> not
-	me [label=me]
-	<colon> [label=":"]
-	me -> <colon>
-	is [label=is]
-	cannot [label=cannot]
-	is -> cannot
+	often -> be
+	under [label=under]
+	on [label=on]
+	under -> on
+	see [label=see]
+	could [label=could]
+	see -> could
+	most [label=most]
 	great [label=great]
-	many [label=many]
-	great -> many
-	";" [label=";"]
+	most -> great
 	In [label=In]
-	";" -> In
-	me [label=me]
-	in [label=in]
-	me -> in
-	with [label=with]
-	much [label=much]
-	with -> much
-	and [label=and]
-	as [label=as]
-	and -> as
-	great [label=great]
-	more [label=more]
-	great -> more
-	be [label=be]
-	to [label=to]
-	be -> to
-	the [label=the]
-	very [label=very]
-	the -> very
-	it [label=it]
 	";" [label=";"]
-	it -> ";"
-	me [label=me]
-	of [label=of]
-	me -> of
-	great [label=great]
-	breeds [label=breeds]
-	great -> breeds
-	is [label=is]
-	be [label=be]
-	is -> be
-	with [label=with]
+	In -> ";"
+	in [label=in]
+	under [label=under]
+	in -> under
+	by [label=by]
+	all [label=all]
+	by -> all
 	and [label=and]
-	with -> and
-	"." [label="."]
-	"," [label=","]
-	"." -> ","
-	with [label=with]
-	it [label=it]
-	with -> it
-	great [label=great]
+	or [label=or]
+	and -> or
+	most [label=most]
+	slight [label=slight]
+	most -> slight
+	to [label=to]
+	often [label=often]
+	to -> often
+	some [label=some]
 	the [label=the]
-	great -> the
-	with [label=with]
-	is [label=is]
-	with -> is
+	some -> the
+	In [label=In]
+	they [label=they]
+	In -> they
+	of [label=of]
+	in [label=in]
+	of -> in
+	most [label=most]
+	animals [label=animals]
+	most -> animals
+	see [label=see]
+	to [label=to]
+	see -> to
+	and [label=and]
+	by [label=by]
+	and -> by
+	"," [label=","]
 	"." [label="."]
-	me [label=me]
-	"." -> me
-	with [label=with]
-	great [label=great]
-	with -> great
-	with [label=with]
-	"." [label="."]
-	with -> "."
+	"," -> "."
+	and [label=and]
+	In [label=In]
+	and -> In
+	most [label=most]
+	some [label=some]
+	most -> some
+	see [label=see]
+	and [label=and]
+	see -> and
+	"," [label=","]
+	of [label=of]
+	"," -> of
+	see [label=see]
+	most [label=most]
+	see -> most
+	"," [label=","]
+	see [label=see]
+	"," -> see
 }
